@@ -1,0 +1,141 @@
+  @charset "utf-8";
+  /* CSS Document */
+
+  @font-face {
+      font-family: fonte;
+      src: url(../fontes/little_sunshine.ttf);
+  }
+
+  #imagem_logo {
+      width:110px;
+      height:110px;
+      vertical-align: center;
+  }
+
+  #imagem_banner {
+      width: 95%;
+      height: 480px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #div1{
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+      font-family: fonte;
+
+  }   
+  #div2{
+      font-family: fonte;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+      width: 100%;
+      padding: 2px;
+      border-radius: 20px;
+      background-color: #CD5DFA;
+      opacity: 0.7;
+  }
+
+  #body_index{
+      background-image: url(../imagens/25.png); 
+      background-repeat: no-repeat;
+      padding: 25px;
+      background-size: cover;
+  }
+
+  ul #menu {
+      padding: 15px;
+  }
+
+  ul#menu li {
+     display: inline;
+  }
+
+  ul#menu li a {
+      font-family: fonte;
+      background-color: #F567B3;
+      font-weight: bolder; /* para negrito; */
+      color: white;
+      font-size: 40px;
+      padding: 20px 120px;
+      text-decoration: none;
+      border-radius: 10px 10px 10px 10px;
+      opacity: 1;
+      /* line-height: 1.6;  Define a altura da linha;
+                          n é o número que será multiplicado pelo 
+                          tamanho da fonte do elemento para se obter
+                          o tamanho da linha desejada.
+                         */
+  }
+
+  ul#menu li a:hover {
+      background-color: whitesmoke;
+      color: #DE5257;
+      font-size: 40px;
+      font-weight: bolder;
+      font-family: fonte;
+      letter-spacing: 10px;/*espaçamento entre letras*/
+  }
+
+  #a{
+     font-size: 60px;
+     font-weight: bolder;
+     font-family: fonte;
+     text-decoration: none;
+     background-color: #FA725D;
+     border-radius: 10px;
+     padding: 20px;
+
+  }
+
+  #a:hover {
+      background-color:pink;
+      font-size: 50px;
+      font-weight: bolder;
+      font-family: fonte;
+      letter-spacing: 5px;/*espaçamento entre letras*/
+  }
+
+  #p{
+      text-align: justify;
+      text-indent: 100px;
+      font-family: fonte;
+      font-size: 40px;
+      line-height: 1;
+      background-color: #CD5DFA;
+      padding: 5px 20px;
+  }
+
+  #p1{
+      text-align: justify;
+      font-weight: bolder;
+      font-size: 50px;
+      text-indent: 50px;
+      font-family: fonte;
+      padding: 40px;
+      background-color: #CD5DFA;
+  }
+
+  #p2{
+     text-align: center;
+     font-family: fonte;    
+  }
+
+  #img_logo{
+     width: 100px; 
+     height: 75px;
+     /*background-size: cover;*/
+  }
+
+  #a_top{
+     font-size: 50px;
+     font-weight: bolder;
+     font-family: fonte;
+     text-decoration: none;
+     color: darkblue;
+
+  }
